@@ -8,8 +8,11 @@ body {
 h1, p {
     margin:0;
 }
+p, h4 {
+    font-weight:400;
+}
 p {
-    padding-top:10px;
+    font-size:14px;
 }
 .container {
     background-color:rgb(219, 219, 255);
@@ -27,8 +30,23 @@ p {
 }
 .left-side {
     color:white;
-    padding:90px;
+    padding:100px;
     flex-basis:50%;
+}
+.left-side p {
+    color:rgb(155, 155, 155);
+}
+#search {
+    width:300px;
+    margin-top:25px;
+    padding:10px;
+    background-color:none;
+    border-radius:15px;
+    border:none;
+    background-color:transparent;
+}
+.projects {
+    margin-top:5rem;
 }
 .view-projects {
     display:flex;
