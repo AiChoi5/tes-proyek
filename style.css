@@ -1,0 +1,28 @@
+body {
+    margin:0;
+    padding:0;
+
+}
+h1 {
+    margin:0;
+}
+.container {
+    background-color:#ccc;
+    padding:30px 90px;
+}
+.content {
+    background-color:rgb(46, 40, 59);
+    padding:10px;  
+    display:flex;
+    flex-direction: row;
+    
+}
+.left-side {
+    padding:90px;
+    flex-basis:50%;
+}
+.right-side {
+    padding:45px;
+    background-color:white;
+    flex-basis:50%;
+}
