@@ -26,3 +26,15 @@ h1 {
     background-color:white;
     flex-basis:50%;
 }
+.view-projects {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+}
+.project-box {
+    width:30%;
+}
+.project-img img {
+    width:75%;
+}
