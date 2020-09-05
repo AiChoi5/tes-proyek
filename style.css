@@ -6,6 +6,7 @@ body {
     margin:0;
     padding:0;
     font-family: 'Architects Daughter', cursive;
+    background-color:rgb(219, 219, 255);
 }
 h1, p {
     margin:0;
@@ -13,16 +14,24 @@ h1, p {
 p, h4 {
     font-weight:400;
 }
+h1 {
+    font-size:2.5vw;
+}
+h3 {
+    font-size:1.4625vw;
+}
+h4 {
+    font-size:1.25vw;
+}
 p {
-    font-size:14px;
+    font-size:1.2vw;
 }
 .container {
-    background-color:rgb(219, 219, 255);
-    padding:30px 90px;
+    padding:2.3vw 7vw;
 }
 .content {
     background-color:rgb(46, 40, 59);
-    padding:10px;  
+    padding:0.78vw;  
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,8 +42,9 @@ p {
 }
 .left-side {
     color:white;
-    padding:100px;
+    padding:7.81vw;
     flex-basis:50%;
+    position:relative;
 }
 .left-side p {
     color:rgb(155, 155, 155);
@@ -44,8 +54,8 @@ p {
 }
 .nav {
     position:absolute;
-    top:3rem;
-    left:6.75rem;
+    top:0.5em;
+    left:0.5em;
 }
 .nav span {
     color:white;
@@ -55,9 +65,9 @@ p {
     background-color:rgb(71, 61, 92);
 }
 .search {
-    width:300px;
-    margin-top:25px;
-    padding:10px 15px;
+    width:100%;
+    margin-top:1.953vw;
+    padding:0.78vw 1.171vw;
     color:white;
     border-radius:15px;
     border:none;
@@ -68,8 +78,8 @@ p {
     background-color:transparent;
     border:none;
     width:80%;
-    margin-left:10px;
-    font-size:12px;
+    margin-left:0.78vw;
+    font-size:0.93vw;
 }
 .search input:focus {
     outline-style:none;
@@ -95,8 +105,8 @@ p {
 }
 .project-box {
     flex-basis:24%;
-    margin-right:10px;
-    margin-bottom:45px;
+    margin-right:0.78vw;
+    margin-bottom:3.51vw;
 }
 .project-box h5, .project-box p {
     text-align:center;
@@ -106,11 +116,10 @@ p {
 }
 .project-img h5 {
     position:absolute;
-    font-size:35px;
-    top:-35px;
+    font-size:2.73vw;
+    top:-2.73vw;
     width:100%;
     color:rgba(255, 255, 255, 0.74);
-
 }
 .project-img img {
     width:100%;
@@ -119,9 +128,10 @@ p {
 
 /*Right Side*/
 .right-side {
-    padding:45px;
+    padding:3.51vw;
     background-color:white;
     flex-basis:50%;
+    position:relative;
 }
 .title-project {
     display:flex;
@@ -133,26 +143,37 @@ p {
     text-align: right;
 }
 .user-icon {
-    letter-spacing:-75px;
+    letter-spacing:-5.859vw;
     position:relative;
     margin-right:1rem;
     padding-top:3px;
 }
 .user-icon img {
-    width:20%;
+    width:3.125vw;
     border-radius:50%;
     border:2px solid #fff;
     position:absolute;
-    top:0px;
+    top:3px;
+}
+.orang1 {
+    right:2em;
+}
+.orang2 {
+    right:4.1em;
+}
+.orang3 {
+    right:6.17em;
+}
+.bottom h3 {
+    padding:25px 0 10px 0;
 }
 .users span {
-    padding-top:1.5px;
+    padding-top:6px;
     color:rgb(209, 202, 221);
-    
 }
 .list {
     display:flex;
-    margin-bottom:12px;
+    margin-bottom:0.93vw;
 }
 label p {
     margin:auto;
@@ -163,7 +184,7 @@ label p {
 .checklist {
     display:block;
     position:relative;
-    padding-left:35px;
+    padding-left:2.734vw;
     cursor:pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -181,8 +202,8 @@ label p {
     position:absolute;
     top:0;
     left:0;
-    height:25px;
-    width:25px;
+    height:1.953vw;
+    width:1.953vw;
     background-color:#eee;
     border-radius:50%;
 }
@@ -201,10 +222,10 @@ label p {
     display:block;
 }
 .checklist .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
+    left: 0.70vw;
+    top: 0.39vw;
+    width: 0.39vw;
+    height: 0.78vw;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
@@ -215,10 +236,10 @@ label p {
 .status {
     margin-left:auto;
     border-radius:10px;
-    padding:4px;
+    padding:0.3125vw;
     font-weight:650;
     letter-spacing: 1px;
-    font-size:12px;
+    font-size:0.93vw;
     width:9vw;
     text-align:center;
 }
@@ -242,8 +263,8 @@ label p {
 .new-list {
     bottom:1;
     position:absolute;
-    bottom:-12.4rem;
-    right:7rem;
+    bottom:0.75em;
+    right:0.75em;
 }
 .new-list button {
     border-radius:8px;
