@@ -25,6 +25,7 @@ p {
     padding:10px;  
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
     box-shadow:0px 5px 13px rgb(0, 0, 0);
 }
 .content, .right-side {
@@ -38,14 +39,38 @@ p {
 .left-side p {
     color:rgb(155, 155, 155);
 }
-#search {
+.left-side h1 {
+    margin-bottom:3px;
+}
+.search {
     width:300px;
     margin-top:25px;
-    padding:10px;
-    background-color:none;
+    padding:10px 15px;
+    color:white;
     border-radius:15px;
     border:none;
+    background-color:rgba(255, 255, 255, 0.089);
+}
+.search input {
+    color:white;
     background-color:transparent;
+    border:none;
+    width:80%;
+    margin-left:10px;
+    font-size:12px;
+}
+.search input:focus {
+    outline-style:none;
+}
+.search input::-webkit-input-placeholder{
+    color:rgb(204, 204, 204);
+}
+.search span {
+    color:rgb(204, 204, 204);
+    cursor:pointer;
+}
+.search:active{
+    border:none;
 }
 .projects {
     margin-top:5rem;
@@ -54,10 +79,11 @@ p {
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
+    justify-content: space-between;
 }
 .project-box {
     flex-basis:24%;
-    margin-right:25px;
+    margin-right:10px;
     margin-bottom:45px;
 }
 .project-box h5, .project-box p {
@@ -84,13 +110,16 @@ p {
     background-color:white;
     flex-basis:50%;
 }
+
 .list {
     display:flex;
     margin-bottom:12px;
 }
 label p {
     margin:auto;
+    color:rgb(95, 95, 95);
 }
+
 /*Bagian Checkbox*/
 .checklist {
     display:block;
@@ -145,13 +174,30 @@ label p {
   }
 
 .status {
-    background-color:rgb(226, 255, 232);
     margin-left:auto;
     border-radius:10px;
-    padding:0 15px;
-    color:rgb(35, 156, 55);
+    padding:4px;
     font-weight:650;
     letter-spacing: 1px;
+    font-size:12px;
+    width:9vw;
+    text-align:center;
+}
+.approved {
+    color:rgb(35, 156, 55);
+    background-color:rgb(226, 255, 232);
+}
+.in-progress {
+    color:rgb(61, 115, 196);
+    background-color:rgb(226, 235, 255);
+}
+.waiting {
+    color:rgb(92, 92, 92);
+    background-color:rgb(236, 235, 235);
+}
+.in-review {
+    color:rgb(216, 136, 30);
+    background-color:rgb(255, 237, 210);
 }
 
 .new-list {

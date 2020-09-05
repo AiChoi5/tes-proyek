@@ -24,7 +24,7 @@ let cinta1 = `
             <input type="checkbox" class="check" value="">
             <span class="checkmark"></span>
         </label>
-        <p class="status">In Review</p>
+        <p class="status in-review">In Review</p>
     </div>
 `;
   
@@ -35,7 +35,7 @@ let cinta2 = `
             <input type="checkbox" class="check" value="">
             <span class="checkmark"></span>
         </label>
-        <p class="status">In Progress</p>
+        <p class="status in-progress">In Progress</p>
     </div>
 `;
 
@@ -46,7 +46,7 @@ let cinta3 = `
             <input type="checkbox" class="check" value="">
             <span class="checkmark"></span>
         </label>
-        <p class="status">Approved</p>
+        <p class="status approved">Approved</p>
     </div>
 `;
 
@@ -57,7 +57,7 @@ let cinta4 = `
             <input type="checkbox" class="check" value="">
             <span class="checkmark"></span>
         </label>
-        <p class="status">Waiting</p>
+        <p class="status waiting">Waiting</p>
     </div>
 `;
 
@@ -68,6 +68,6 @@ let cinta5 = `
             <input type="checkbox" class="check" value="">
             <span class="checkmark"></span>
         </label>
-        <p class="status">Approved</p>
+        <p class="status approved">Approved</p>
     </div>
 `;
