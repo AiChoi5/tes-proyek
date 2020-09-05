@@ -117,12 +117,39 @@ p {
     border-radius:15px;
 }
 
+/*Right Side*/
 .right-side {
     padding:45px;
     background-color:white;
     flex-basis:50%;
 }
-
+.title-project {
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.users {
+    flex-basis:50%;
+    text-align: right;
+}
+.user-icon {
+    letter-spacing:-75px;
+    position:relative;
+    margin-right:1rem;
+    padding-top:3px;
+}
+.user-icon img {
+    width:20%;
+    border-radius:50%;
+    border:2px solid #fff;
+    position:absolute;
+    top:0px;
+}
+.users span {
+    padding-top:1.5px;
+    color:rgb(209, 202, 221);
+    
+}
 .list {
     display:flex;
     margin-bottom:12px;
