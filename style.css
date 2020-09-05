@@ -85,9 +85,71 @@ p {
     flex-basis:50%;
 }
 .list {
-    display:flex;    
+    display:flex;
+    margin-bottom:12px;
 }
+label p {
+    margin:auto;
+}
+/*Bagian Checkbox*/
+.checklist {
+    display:block;
+    position:relative;
+    padding-left:35px;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checklist input {
+    position:absolute;
+    opacity:0;
+    cursor:pointer;
+    height:0;
+    width:0;
+}
+.checkmark {
+    position:absolute;
+    top:0;
+    left:0;
+    height:25px;
+    width:25px;
+    background-color:#eee;
+    border-radius:50%;
+}
+.checklist:hover input ~ .checkmark {
+    background-color:#ccc;
+}
+.checklist input:checked ~ .checkmark {
+    background-color:#2196F3;
+}
+.checkmark:after {
+    content:"";
+    position:absolute;
+    display:none;
+}
+.checklist input:checked ~ .checkmark:after {
+    display:block;
+}
+.checklist .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
 .status {
-    background-color:rgb(198, 224, 204);
+    background-color:rgb(226, 255, 232);
     margin-left:auto;
+    border-radius:10px;
+    padding:0 15px;
+    color:rgb(35, 156, 55);
+    font-weight:650;
+    letter-spacing: 1px;
 }
