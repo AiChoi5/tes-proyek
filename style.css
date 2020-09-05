@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
+* {
+    box-sizing: border-box;
+}
 body {
     margin:0;
     padding:0;
@@ -54,10 +56,27 @@ p {
     flex-wrap:wrap;
 }
 .project-box {
-    width:30%;
+    flex-basis:24%;
+    margin-right:25px;
+    margin-bottom:45px;
+}
+.project-box h5, .project-box p {
+    text-align:center;
+}
+.project-img {
+    position:relative;
+}
+.project-img h5 {
+    position:absolute;
+    font-size:35px;
+    top:-35px;
+    width:100%;
+    color:rgba(255, 255, 255, 0.74);
+
 }
 .project-img img {
-    width:75%;
+    width:100%;
+    border-radius:15px;
 }
 
 .right-side {
